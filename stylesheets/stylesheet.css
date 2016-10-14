@@ -266,7 +266,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 800px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -422,4 +422,40 @@ Small Device Styles
     font-size: 11px;
   }
 
+}
+
+/*******************************************************************************
+Extra UX
+*******************************************************************************/
+
+.fa {
+  font-size: 0.6em;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.section-link {
+  float: right;
+  color: #bbb;
+}
+
+.exercise-header {
+  border: 1px solid #666;
+  border-radius: 3px;
+  padding: 3px 15px;
+  margin: 0px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.exercise-header i {
+  margin-right: 10px;
+}
+
+.exercise {
+  display: none;
+  border: 1px solid #666;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding: 10px;
 }
