@@ -371,6 +371,37 @@ Full-Width Styles
   background: #212121;
 }
 
+.fa {
+  font-size: 0.6em;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.section-link {
+  float: right;
+  color: #bbb;
+}
+
+.exercise-header {
+  border: 1px solid #666;
+  border-radius: 3px;
+  padding: 3px 15px;
+  margin: 0px;
+  background-color: #FFA400;
+  cursor: pointer;
+}
+
+.exercise-header i {
+  margin-right: 10px;
+}
+
+.exercise {
+  display: none;
+  border: 1px solid #666;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding: 10px;
+}
 
 
 /*******************************************************************************
@@ -425,40 +456,7 @@ Small Device Styles
     font-size: 11px;
   }
 
-}
-
-/*******************************************************************************
-Extra UX
-*******************************************************************************/
-
-.fa {
-  font-size: 0.6em;
-  vertical-align: middle;
-  padding: 5px;
-}
-
-.section-link {
-  float: right;
-  color: #bbb;
-}
-
-.exercise-header {
-  border: 1px solid #666;
-  border-radius: 3px;
-  padding: 3px 15px;
-  margin: 0px;
-  background-color: #FFA400;
-  cursor: pointer;
-}
-
-.exercise-header i {
-  margin-right: 10px;
-}
-
-.exercise {
-  display: none;
-  border: 1px solid #666;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  padding: 10px;
+  .exercise-header {
+    padding: 15px 15px;
+  }
 }
