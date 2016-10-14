@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Gfbs : Goals For Better Software">
 
+    <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
     <title>Goals For Better Software</title>
@@ -26,9 +27,8 @@
 <!-- MAIN CONTENT -->
 <div id="main_content_wrap" class="outer">
     <section id="main_content" class="inner">
-        <h1>
-            <a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span
-                    aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h1>
+        <h1>Introduction <a id="introduction" class="section-link" href="#introduction" aria-hidden="true"><i
+                class="fa fa-link fa-"></i></a></h1>
         <p>
             <strong>Software development is a craft.</strong> We incrementally improve as we learn from our own
             experience and the experience of others to build that next piece of software. There is no "best", because
@@ -42,13 +42,11 @@
             can spark great conversations within a team.
         </p>
 
-        <h1>
-            <a id="better-code" class="anchor" href="#better-code" aria-hidden="true"><span
-                    aria-hidden="true" class="octicon octicon-link"></span></a>Better Code</h1>
+        <h1>Better Code <a id="better-code" class="section-link" href="#better-code" aria-hidden="true"><i
+                class="fa fa-link fa-"></i></a></h1>
 
-        <h2>
-            <a id="better-code-naming" class="anchor" href="#better-code-naming" aria-hidden="true"><span
-                    aria-hidden="true" class="octicon octicon-link"></span></a>Goal: Naming</h2>
+        <h2>Goal: Naming <a id="better-code-naming" class="section-link" href="#better-code-naming"
+                            aria-hidden="true"><i class="fa fa-link fa-"></i></a></h2>
         <blockquote>"Indeed, the ratio of time spent reading versus writing is well over 10 to 1. We are constantly
             reading old code as part of the effort to write new code. ...[Therefore,] making it easy to read makes it
             easier to write.", Robert C. Martin, Clean Code
@@ -61,16 +59,17 @@
             the number of contributors with a larger pool.
         </p>
 
-        <h3 class="exercise-header"><a id="better-code-naming-ex-1" class="anchor" href="#better-code-naming-ex-1"
-                                         aria-hidden="true"><span
-                aria-hidden="true" class="octicon octicon-link"></span></a>Exercise: Widen The Audience</h3>
+        <h3 class="exercise-header"><i class="fa fa-chevron-down" aria-hidden="true"></i>Exercise: Widen The Audience
+        </h3>
         <div class="exercise">
+            <h4>Background</h4>
             <p>
                 We want to learn how much time and experience is needed to understand a piece of code. <strong>Junior
                 developers are the best collaborators</strong> because their feedback is the most likely to increase the
                 size of the audience. In-person or video conferencing works best because facial expressions, body
                 language, and muttered or exclaimed wtf's are often filtered when using text-based tools.
             </p>
+            <h4>Instructions</h4>
             <p>
                 Pair up with a collaborator and sit down with your code. <strong>Ask them to explain what the code is
                 doing and why.</strong> Unless the person is completely stuck, <strong>listen and do not guide
@@ -78,27 +77,29 @@
                 better names for classes, functions, and variables, etc.
             </p>
         </div>
-        <h3><a id="better-code-naming-ex-2" class="anchor" href="#better-code-naming-ex-2" aria-hidden="true"><span
-                aria-hidden="true" class="octicon octicon-link"></span></a>Exercise: Capture Insights</h3>
-        <p>
-            <i>TODO:</i> when code is unclear and we gain new insights, the best place to capture those insights is in
-            the code
-        </p>
-        <h3><a id="better-code-naming-ex-3" class="anchor" href="#better-code-naming-ex-3" aria-hidden="true"><span
-                aria-hidden="true" class="octicon octicon-link"></span></a>Exercise: Useless Words</h3>
-        <p>
-            <i>TODO:</i> Avoid using words that have little differentiating value, such as "helper", "util", and
-            "manager".
-        </p>
+        <h3 class="exercise-header"><i class="fa fa-chevron-down" aria-hidden="true"></i>Exercise: Capture Insights</h3>
+        <div class="exercise">
+            <p>
+                <strong>TODO:</strong> when code is unclear and we gain new insights, the best place to capture those
+                insights is in the code.
+            </p>
+        </div>
+        <h3 class="exercise-header"><i class="fa fa-chevron-down" aria-hidden="true"></i>Exercise: Useless Words</h3>
+        <div class="exercise">
+            <p>
+                <strong>TODO:</strong> Avoid using words that have little differentiating value, such as "helper",
+                "util", and "manager".
+            </p>
+        </div>
 
-        <h2>
-            <a id="better-code-failfast" class="anchor" href="#better-code-failfast" aria-hidden="true"><span
-                    aria-hidden="true" class="octicon octicon-link"></span></a>Goal: Fail Fast</h2>
-        <p><i>TODO:</i> We fail fast to let people know about problems as soon, and as close to the source, as possible.
+        <h2>Goal: Fail Fast <a id="better-code-failfast" class="section-link" href="#better-code-failfast"
+                               aria-hidden="true"><i class="fa fa-link fa-"></i></a></h2>
+        <p><strong>TODO:</strong> We fail fast to let people know about problems as soon, and as close to the source, as
+            possible.
         </p>
         <p>
-            <i>TODO:</i> fastest is the compiler not allowing invalid use, next is exceptions ASAP. Don't allow invalid
-            objects. Bounds checks are critical.
+            <strong>TODO:</strong> fastest is the compiler not allowing invalid use, next is exceptions ASAP. Don't
+            allow invalid objects. Bounds checks are critical.
 
             Exercises - Can an object exist in an invalid state? If so, how many places in the code have to deal with
             it? These are bugs waiting to happen.
